@@ -1,0 +1,57 @@
+---
+name: wubi86_duckling_extra
+note: "用户扩展词库"
+version: "2022-05-22"
+last_edit_time: "2022-05-22"
+dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
+sort: original
+# 码表的排序方式: by_weight 权重，original 原始顺序
+
+# 码长内容格式：字词 键码  权重 （中间是tab，不是空格）
+# '#'开头的只是注释， 注释只能另起一行写，不能在词条后面写
+# `##` 两个 # 开头的会被识别为分组名，其后跟的词条就是该组的内容
+
+...
+## 苹果符号
+	zvpg
+⌘	zvpg
+⌥	zvpg
+
+## 三叠字
+众	cccc
+厽	cccc
+刕	cccc
+㐂	cccc
+孨	cccc
+品	cccc
+姦	cccc
+森	cccc
+歮	cccc
+鑫	cccc
+淼	cccc
+尛	cccc
+焱	cccc
+垚	cccc
+壵	cccc
+惢	cccc
+𡘙	cccc
+猋	cccc
+犇	cccc
+掱	cccc
+舙	cccc
+晶	cccc
+瞐	cccc
+𤾩	cccc
+皛	cccc
+畾	cccc
+磊	cccc
+毳	cccc
+鱻	cccc
+驫	cccc
+骉	cccc
+羴	cccc
+矗	cccc
+䆐	cccc
+飝	cccc
+龘	cccc
+麤	cccc
