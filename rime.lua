@@ -44,3 +44,24 @@ function date_translator(input, seg)
         yield(Candidate("time", seg.start, seg._end, os.date("%H:%M:%S"), ""))
     end
 end
+
+--- uuid生成
+function uuid_generate(input, seg)
+    if (input == "zvuuid") then -- 输入 zvuuid 字符串
+        local seed = {'e','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f'}
+        local tb = {}
+        for i = 1,32 do
+            table.insert(tb, seed[math.random(1, 16)])
+        end
+        local sid = table.concat(tb)
+        local result =  string.format('%s%s%s%s%s',
+                                    string.sub(sid, 1, 8),
+                                    string.sub(sid, 9, 12),
+                                    string.sub(sid, 13, 16),
+                                    string.sub(sid, 17, 20),
+                                    string.sub(sid, 21, 32)
+                                )
+        yield(Candidate("zvuuid", seg.start, seg._end, result, "uuid"))
+    end
+end
+

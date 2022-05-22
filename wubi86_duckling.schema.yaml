@@ -55,6 +55,7 @@ engine:
     - table_translator
     - lua_translator@date_translator   # 自定义系统变量输出
     - lua_translator@calculator  # 计算器：二元运算，zvzv 开头，如 zvzv56*34 zvzv24/1024
+    - lua_translator@uuid_generate  # 生成uuid，zvuuid 开头
   filters:
     - simplifier
     - simplifier@traditional
