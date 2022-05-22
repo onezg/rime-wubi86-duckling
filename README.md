@@ -134,6 +134,7 @@ __配置方案链接__
 - [x] Rime 过滤掉生僻字：https://github.com/rime/weasel/issues/478
 - [x] Rime 鼠须管输入法删除生僻字（候选词字体不一样）：https://github.com/ssnhd/rime-rareword
 - [x] KyleBing 极点五笔配置方案：https://github.com/KyleBing/rime-wubi86-jidian
+- [x] ssnhd 花园明朝字体（Mac缺少生僻字）：https://github.com/ssnhd/rime
 - [x] ssnhd Rime皮肤配置详解：https://ssnhd.com/2022/01/06/rime/
 
 
