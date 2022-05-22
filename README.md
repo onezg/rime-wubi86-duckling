@@ -25,10 +25,9 @@
 ## 二、文件说明
 每个配置文件中有一些注释说明，可以辅助理解。
 
-如果还有其它问题可以在 `issue` 中提出，或者加群（[QQ群：701682740](https://qm.qq.com/cgi-bin/qm/qr?k=MGCxOwYp9GpwMe653vWpPqHmxiYCYM2r&jump_from=webapi)） 讨论。
+如果还有其它问题可以在 `issue` 中提出，或者加群（[QQ群：701682740](https://qm.qq.com/cgi-bin/qm/qr?k=MGCxOwYp9GpwMe653vWpPqHmxiYCYM2r&jump_from=webapi)）讨论。
 
 ```bash
-.
 ├── Duckling.chm                            # 小鸭五笔官方手册
 ├── README.md                               # 说明文档
 ├── rime.lua                                # 配置文件 - 可以输出系统变量的函数
@@ -39,7 +38,7 @@
 ├── pinyin_simp.schema.yaml                 # 输入方案 - 简体拼音
 ├── wubi86_duckling.schema.yaml             # 输入方案 - 小鸭五笔
 ├── wubi86_duckling.dict.yaml               # 词库文件 - 小鸭五笔主码表
-└── wubi86_duckling_extra.dict.yaml           # 词库文件 - 个人扩展词库
+└── wubi86_duckling_extra.dict.yaml         # 词库文件 - 个人扩展词库
 ```
 
 ## 三、词库说明
