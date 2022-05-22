@@ -123,7 +123,7 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 ### 6. Lua增强 `计算器` 和 `uuid`
 输入对应词，调用计算器和uuid
 - `zvzv` 计算器，格式 `zvzv12＊13` 空格输出结果156
-- `zvuuid` uudid，格式 `zvuuid` 空格输出随机uuid
+- `zvuuid` uuid，格式 `zvuuid` 空格输出随机uuid
 
 
 
