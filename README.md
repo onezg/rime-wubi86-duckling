@@ -111,21 +111,19 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 切换到 台湾片语 模式，不只是简入繁出，一些词汇还会转化为台湾那边的叫法
 
 例如：
-- 文件 -> 檔案
-- 鼠标 -> 滑鼠
+- yywr -> 文件 -> 檔案
+- vnsf -> 鼠标 -> 滑鼠
 
 
-### 5. 系统 `时间`、`日期` 和 `计算器`
+### 5. 系统 `时间`、`日期`
 输入对应词，获取当前日期和时间
 - `date` 输出日期，格式 `2022-05-22` `2022年05月22日`
 - `time` 输出时间，格式 `15:19` `15:19:43`
-- `zvzv` 计算器，格式 `zvzv12＊13` 空格直接出结果156
 
-
-
-
-
-
+### 6. Lua增强 `计算器` 和 `uuid`
+输入对应词，调用计算器和uuid
+- `zvzv` 计算器，格式 `zvzv12＊13` 空格输出结果156
+- `zvuuid` uudid，格式 `zvuuid` 空格输出随机uuid
 
 
 
@@ -136,6 +134,7 @@ __配置方案链接__
 - [x] Rime 过滤掉生僻字：https://github.com/rime/weasel/issues/478
 - [x] Rime 鼠须管输入法删除生僻字（候选词字体不一样）：https://github.com/ssnhd/rime-rareword
 - [x] KyleBing 极点五笔配置方案：https://github.com/KyleBing/rime-wubi86-jidian
+- [x] ssnhd Rime皮肤配置详解：https://ssnhd.com/2022/01/06/rime/
 
 
 __工具链接__
